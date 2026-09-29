@@ -253,17 +253,18 @@ pub fn scoped_slice_sum(a: &[i32], b: &[i32]) -> (i32, i32) {
 pub fn handle_panic(value: i32, should_panic: bool) -> Result<i32, ()> {
     // TODO: Spawn a thread that either panics or returns value
     // TODO: Join and map the result appropriately
-    if should_panic {
-        let handle = thread::spawn(|| {
+    
+        let handle = thread::spawn(move || {
+            if should_panic {
             panic!("oops");
+            } else {
+                value
+            }
         });
         match handle.join() {
             Ok(_) => Ok(value),
             Err(_) => Err(()),
         }
-    } else {
-        Ok(value)
-    }
 }
 
 #[cfg(test)]
