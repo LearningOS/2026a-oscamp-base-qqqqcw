@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-qqqqcw",
-  "commit": "4d259ff5ddbc8be893eef2f756cc2f26e44f645f",
-  "score": 19,
+  "commit": "9cc680a623ca17ffb426454390d0f9e91e78db7c",
+  "score": 24,
   "totalScore": 100,
   "exercises": [
     {
@@ -44,9 +44,9 @@
     {
       "name": "bump_allocator",
       "max": 5,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 5,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "free_list_allocator",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "qqqqcw",
-  "runId": "36860025741",
+  "runId": "36866380763",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
