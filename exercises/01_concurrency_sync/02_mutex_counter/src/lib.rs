@@ -8,7 +8,7 @@
 //! - `lock()` acquires the lock and accesses data
 
 use std::sync::{Arc, Mutex};
-use std::{result, thread};
+use std::thread;
 
 /// Increment a counter concurrently using `n_threads` threads.
 /// Each thread increments the counter `count_per_thread` times.
