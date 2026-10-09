@@ -7,6 +7,7 @@
 //! - `JoinHandle` waits for task completion
 //! - Concurrent execution between asynchronous tasks
 
+#[allow(unused_imports)]
 use tokio::task::JoinHandle;
 use tokio::time::{sleep, Duration};
 

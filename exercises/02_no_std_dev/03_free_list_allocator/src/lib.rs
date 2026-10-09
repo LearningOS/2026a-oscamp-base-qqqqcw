@@ -156,7 +156,6 @@ unsafe impl GlobalAlloc for FreeListAllocator {
         node_ptr.write(FreeBlock { size, next: head });
         self.set_free_list_head(node_ptr);
     }
-    }
 }
 
 // ============================================================
