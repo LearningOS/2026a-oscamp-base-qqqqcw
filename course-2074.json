@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2074,
   "repository": "LearningOS/2026a-oscamp-base-qqqqcw",
-  "commit": "99f303cfca64601ab933a057be2919a086c053fb",
-  "score": 95,
+  "commit": "69a1c09325fcfb97ac7df0051f68a9bc788eebbd",
+  "score": 100,
   "totalScore": 100,
   "exercises": [
     {
@@ -51,9 +51,9 @@
     {
       "name": "free_list_allocator",
       "max": 5,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 101
+      "score": 5,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "syscall_wrapper",
@@ -176,9 +176,9 @@
     }
   ],
   "student": "qqqqcw",
-  "runId": "37873915717",
+  "runId": "37875213359",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
